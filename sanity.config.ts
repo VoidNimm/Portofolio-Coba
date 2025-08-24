@@ -8,7 +8,7 @@ export default defineConfig({
   name: 'portfolio_studio',
   title: 'Portfolio Studio',
 
-  projectId: 'YOUR_PROJECT_ID', // Replace with your actual project ID
+  projectId: '74sn78pu', // Replace with your actual project ID
   dataset: 'production',      // Replace with your actual dataset name
 
   plugins: [deskTool(), visionTool()],
