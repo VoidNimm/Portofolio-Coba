@@ -5,7 +5,7 @@ import { createClient } from 'next-sanity'
 // 2. It's highly recommended to use environment variables for these values.
 //    See: https://nextjs.org/docs/app/building-your-application/configuring/environment-variables
 // -----------------
-export const projectId = 'YOUR_PROJECT_ID'
+export const projectId = '74sn78pu'
 export const dataset = 'production'
 export const apiVersion = '2023-05-03' // Use a recent API version
 
