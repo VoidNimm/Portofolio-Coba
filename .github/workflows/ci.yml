@@ -44,7 +44,7 @@ jobs:
         env:
           # Set dummy env vars to allow the build to run
           # The user will need to set these in their CI environment
-          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://user:pass@host:port/db' }}
-          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID || 'dummy-id' }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:nim456232@db.borpvzdnvoaztnofwtdm.supabase.co:5432/postgres' }}
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID || '74sn78pu' }}
           NEXT_PUBLIC_SANITY_DATASET: ${{ secrets.NEXT_PUBLIC_SANITY_DATASET || 'production' }}
         run: pnpm build
