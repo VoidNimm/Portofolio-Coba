@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+/.pnpm-store
+
+# Build outputs
+/.next/
+/out/
+/build
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+
+# Vercel
+.vercel
+
+# Turbo
+.turbo
+
+/lib/generated/prisma

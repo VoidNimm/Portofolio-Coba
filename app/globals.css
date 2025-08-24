@@ -1,0 +1,48 @@
+@import "../styles/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 3.7% 4.9%; /* #0B0B0C */
+    --foreground: 240 3.8% 95.9%; /* #F5F6F7 */
+
+    --card: 240 4% 6.1%; /* #111214 - surface */
+    --card-foreground: 240 3.8% 95.9%; /* #F5F6F7 */
+
+    --popover: 240 3.7% 4.9%; /* #0B0B0C */
+    --popover-foreground: 240 3.8% 95.9%; /* #F5F6F7 */
+
+    --primary: 240 3.8% 95.9%; /* #F5F6F7 */
+    --primary-foreground: 240 3.7% 4.9%; /* #0B0B0C */
+
+    --secondary: 240 4% 10.1%; /* A slightly lighter surface */
+    --secondary-foreground: 240 3.8% 95.9%; /* #F5F6F7 */
+
+    --muted: 240 3.7% 62.9%; /* #A1A1AA */
+    --muted-foreground: 240 3.8% 95.9%; /* #F5F6F7 */
+
+    --accent: 173 100% 44%; /* #00E0C7 */
+    --accent-foreground: 240 3.7% 4.9%; /* #0B0B0C */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 11.2%; /* #1E1F22 - line */
+    --input: 240 4% 11.2%; /* #1E1F22 - line */
+    --ring: 173 100% 44%; /* #00E0C7 - accent */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

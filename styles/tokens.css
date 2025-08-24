@@ -1,0 +1,22 @@
+:root {
+  /* Letter Spacing - As per design requirements for typographic rhythm */
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+  --tracking-hero: 0.25em; /* Specific token for the ultra-wide hero name */
+
+  /* Shadows - Subtle elevation for a premium feel */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-nav: 0 2px 4px 0 rgb(0 0 0 / 0.1); /* Specific shadow for the sticky navbar on scroll */
+
+  /* Motion - Short durations and gentle easing for refined micro-interactions */
+  --duration-short: 120ms;
+  --duration-medium: 220ms;
+  --duration-long: 300ms;
+  --ease-gentle: cubic-bezier(0.65, 0, 0.35, 1);
+}
